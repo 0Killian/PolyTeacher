@@ -3,6 +3,7 @@ FROM python:3.8.10
 
 # Log level
 ENV PYTHONUNBUFFERED 1
+ENV GEMINI_API_KEY YOUR_GEMINI_API_KEY
 
 # Make working directory
 RUN mkdir /polyteacher

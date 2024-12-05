@@ -1,7 +1,9 @@
 asgiref==3.7.2
-backports.zoneinfo==0.2.1
+backports.zoneinfo==0.2.1;python_version<"3.9"
 Django==4.2.10
 django-extensions==3.2.3
 djangorestframework==3.15.2
 sqlparse==0.4.4
 typing-extensions==4.9.0
+requests==2.32.3
+drf-yasg==1.21.8
