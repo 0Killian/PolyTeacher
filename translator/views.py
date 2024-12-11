@@ -31,7 +31,6 @@ def fetch_translation(source: str, target: str, text: str):
         return Response(data={"error": "Failed to fetch translation: API returned an error"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
     json = response.json()
-    print(json)
 
     # Parse the response, while verifying if the format is correct
     if (
